@@ -30,6 +30,5 @@ const myFunction = function(){
 }
 
 // Ouestion: (Is JS a Dynamically Typed Lang or Statically?) Ans: Dynamically Typed
-
 // if we do (typeof myFunction) => function will be returned by we call it object function
 // All the non-primitive dT will return Function if we do typeof but if we do (typeof myFunction) => object function
