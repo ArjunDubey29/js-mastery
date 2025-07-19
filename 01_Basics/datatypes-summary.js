@@ -32,3 +32,27 @@ const myFunction = function(){
 // Ouestion: (Is JS a Dynamically Typed Lang or Statically?) Ans: Dynamically Typed
 // if we do (typeof myFunction) => function will be returned by we call it object function
 // All the non-primitive dT will return Function if we do typeof but if we do (typeof myFunction) => object function
+
+//+++++++++++++++++++++Memory++++++++++++++++++++++++++++
+
+// Stack (Primitive DT) => Humme Copy Milta Hai 
+// Heap (Non-Primitive DT) => Humme Address milta hai
+
+let myYouTubeName = "ArjunDubeyIsCool"
+let anotherName = "ArjunDubey"
+console.log(anotherName)
+console.log(myYouTubeName)
+
+// Non-Primitive
+let userOne = {
+    email: "arjun@google.com",
+    upi: "arjun@ybl"
+}
+
+let userTwo = userOne
+
+userOne.email = "Satyam@yahoo.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// https://excalidraw.com/#json=qW0gJnG3NM2rlhYWPSeZH,0CySBwt1AlNRURlnHvTtWQ
