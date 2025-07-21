@@ -54,3 +54,31 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// +++++++++++++++++ Object Destructuring ++++++++++++
+
+// DeStructuring
+const course = {
+    coursename: "JS in Hindi",
+    price: 999,
+    courseTeacher: "Arjun"
+}
+// console.log(course.courseTeacher);
+const {courseTeacher: instructor} = course //Baar baar bada likhne se bache
+console.log(instructor);
+
+// {
+//     "naam": "Arjun Dubey",
+//     "course": "Cloud Essentials",
+//     "fees": 5000
+// }
+// Json mein key value both are strings in Objects
+
+// [
+//     {},
+//     {},
+//     {},
+//     {}
+// ]
+// Aise array mein bhi data aata api se
